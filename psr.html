@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>India Cyber Security</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    <script src="js/gtag.js"></script>
+  </head>
+  <body>
+    
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light1" id="ftco-navbar">
+	    <div class="container">
+	    	<div class="col-xl-2">
+	     <a href="index.html"> <img class="headerlogo" src="images/Final-Logo.png"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      	</div>
+	      	<div class="col-xl-10 topmenucss">
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="agenda.html" class="nav-link">Agenda</a></li>
+	          <li class="nav-item"><a href="speaker.html" class="nav-link">Speakers</a></li>
+	          <li class="nav-item dropdown"><a href="#" class="nav-link">Download</a>
+              <ul style="list-style-type: none;">
+                <div class="dropdown-content">
+                <a href="psr.html" style="border-bottom: 1px solid #091e2e;">Post Show Report</a>
+                <a href="brochure.html">Brochure</a>
+                <!--<a href="article.html">Article</a>-->
+                </div>
+                <li class="nav-item"><a href="event-partner.html" class="nav-link"></a>
+
+                </li>
+              </ul>
+            </li>
+	          <li class="nav-item dropdown"><a href="#" class="nav-link">Event Partners</a>
+              <ul style="list-style-type: none;">
+                <div class="dropdown-content">
+                <a href="event-partner.html">View All</a>
+                </div>
+                <li class="nav-item"><a href="event-partner.html" class="nav-link"></a>
+                </li>
+              </ul>
+            </li>
+	          <!--<li class="nav-item"><a href="register.html" class="nav-link">Register Now</a></li>-->
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+	          <li class="nav-item cta mr-md-2"><a href="register.html" class="nav-link">Register Now</a></li>
+
+	        </ul>
+	      </div>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+<br><br><br>
+<br><br><br>
+
+<div class="container">
+  <div class="col-md-12 heading-section ftco-animate">
+                <h2 class="mb-4 text-center">Download Post Show Report</h2><br>
+              </div>
+        <div class="col-md-12">
+                    <div class=" col-md-12 background_box ">
+                        <form action="javascript:void(0);" method="post" id="enquire_now" name="enquire_now" class="form-horizontal">
+                            <div class="col-md-12 paddinglr0 form-group">
+                              <div class="row">
+                                <div class="col-md-4 margin_topbottom20px">
+                                    <input type="text" name="name" id="name" class="required form-control formborder" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="col-md-4 margin_topbottom20px spacecss">
+                                    <input type="email" name="email" id="email" class="required form-control formborder email" placeholder="Enter Your Email" required>
+                                </div>
+                                <div class="col-md-4 margin_topbottom20px">
+                                    <input type="text" name="telephone" id="phone" class="required form-control formborder" placeholder="Enter Your Mobile Number" maxlength="10" onKeyPress="return numValidation(event)" maxlength="10" required>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-md-12 paddinglr0 form-group">
+                              <div class="row">
+                                <div class="col-md-4 margin_bottom20px">
+                                    <input type="text" name="company_name" id="company" class="required form-control formborder company_name" placeholder="Enter Your Company Name">
+                                </div>
+                                <div class="col-md-4 margin_bottom20px spacecss">
+                                    <input type="text" name="designation" id="designation" class="required form-control formborder designation" placeholder="Enter Your Designation">
+                                </div>
+                                <div class="col-md-4 margin_bottom20px">
+                                    <textarea rows="1" class=" form-control formborder message" name="message" id="message" placeholder="Message" style="height: 35px;"></textarea>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 center form-group">
+            <button type="submit" class="btn btn-primary btn-lg" onClick="mailsend(event);" style="margin-top: 25px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    padding: 12px 28px;
+    font-weight: 600;
+    outline: none;
+    white-space: nowrap;
+    border: none;
+    background-color: #7100b3;
+   ">Submit</button>
+                                <div class="margin_top3per" id="emessage_green"></div>
+                                <div class="margin_top3per" id="emessage"></div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+    </div><br><br>
+    
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">For speaking and partnership <br>opportunities</h5><br>
+              <div class="block-23 mb-3">
+	              <ul>
+	              	<p>Bhumika Bhinde</p>
+	                <li><a href="tel:+91 022 6172 7363"><span class="icon icon-phone"></span><span class="text">+91 022 6172 7363</span></a></li>
+	                <li><a href="tel:+91 91522 19455"><span class="icon icon-mobile"></span><span class="text">+91 91522 19455</span></a></li>
+	                <li><a href="mailto:bhumika.bhinde@ubm.com"><span class="icon icon-envelope"></span><span class="text">bhumika.bhinde@ubm.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">To register as <br>a delegate</h5><br>
+              <div class="block-23 mb-3">
+	              <ul>
+	              	<p>Steffi Misquitta</p>
+	                <li><a href="tel:+91 022 6172 7082"><span class="icon icon-phone"></span><span class="text">+91 022 6172 7082</span></a></li>
+	                <li><a href="tel:+91 9167120429"><span class="icon icon-mobile"></span><span class="text">+91 9167120429</span></a></li>
+	                <li><a href="mailto:steffi.misquitta@ubm.com"><span class="icon icon-envelope"></span><span class="text">steffi.misquitta@ubm.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">For content related <br>queries</h5><br>
+              <div class="block-23 mb-3">
+	              <ul>
+	              	<p>Deepak Prajapati </p>
+	                <li><a href="tel:+91 022 6172 7303"><span class="icon icon-phone"></span><span class="text">+91 022 6172 7303</span></a></li>
+	                
+	                <li><a href="mailto:deepak.prajapati@ubm.com"><span class="icon icon-envelope"></span><span class="text">deepak.prajapati@ubm.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h5 class="ftco-heading-2">Follow Us</h5><br>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-1">
+                <li><a href="https://www.facebook.com/UBMConferencesandTrainings/" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li><a href="https://twitter.com/UBM_Conferences" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/ubm-conferences/?viewAsMember=true" target="_blank"><span class="icon-linkedin"></span></a></li>
+              </ul><br><br><br><br>
+              <img class="footerlogo" src="images/ubmlogo.png">
+            </div>
+          </div>
+        </div><hr style="border-top: 1px solid #ffffff;">
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="modal fade" id="thankyouModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close"  data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body">
+          <p style="padding: 9px 22px 0 40px;">Thank you for downloading Post Show Report, for further information about India Cyber Security Dialogue please contact us at +91-9167120429.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" id="close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#72d8fc"/></svg></div>
+<script type="text/javascript">function mailsend(event){
+      
+      if(validate('enquire_now')){
+      
+
+        $.ajax({
+          method: "POST",
+          url: "psrsend.php",
+          data: { name: $('#name').val(), email: $('#email').val() ,phone: $('#phone').val() ,designation: $('#designation').val(),company: $('#company').val(),message:$('#message').val()}
+        })
+        .done(function( msg ) {
+          if(msg==1)
+      {
+             $('#thankyouModal').modal('show');
+               $('#thankyouModal').on('hidden.bs.modal', function () {
+                   location.reload();
+               });
+          }
+      else
+      {
+             
+           $('#emessage').html("Your request has been sent successfully");
+            setInterval(function(){ window.location="/psr.html" }, 2000);
+          
+          
+          }
+        }); 
+      }else{
+      event.preventDefault();     
+        
+      
+      }
+    
+  }
+</script>
+ <script src="js/vendor/jquery-1.12.0.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/comman.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script type="js/valid.js"></script>
+  <script type="js/validate.js"></script>
+  <!--<script type="js/brochure.js"></script>-->
+ <script src="js/scrollup.js"></script>
+
+  </body>
+</html>
